@@ -26,7 +26,7 @@ namespace Remote_Management
         private void btnLogin_Click(object sender, EventArgs e)
         {
             // Create a PowerShell session
-            lvLoginDebug.Items.Add("Creating PowerShell session...");
+            lvLoginDebug.Items.Add("Creating PowerShell session... TEST");
             GlobalVariables.ps = PowerShell.Create();
 
             // Remove any open powershell sessions
